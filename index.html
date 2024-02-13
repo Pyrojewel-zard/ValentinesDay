@@ -21,59 +21,44 @@
 	<div id="content">
 		<div id="code">
 			<span class="comments">##</span><br/>
-			<span class="comments"># I am a programmer,</span><br/>
-			<span class="comments"># so I write code to celebrate Valentine's Day in coder's way.</span><br/>
-			<span class="comments">##</span><br/>
-			i = Boy(<span class="string">"Qingcai Cui"</span>);<br/>
-			u = Girl(<span class="string">"Qian Ma"</span>);<br/>
-			<span class="comments"># Oct 14, 2018, I meet you because of PyCon 2018. </span><br/>
+			<span class="comments"># 虽然并不是很精通html语言</span><br/>
+			<span class="comments"># 但觉得自己好像可以用这种赛博一点的方式来和你庆祝在一起的第一个情人节</span><br/>
+			<span class="comments"># 我们因为安溥得以相识</span><br/>
+			<span class="comments"># 因为很偶然的方式开启了聊天</span><br/>
+			<span class="comments"># 2023.12.24 20:30是我们正式在一起的日子。</span><br/>
+			i = boy(<span class="string">"Pyrojewel"</span>);<br/>
+			u = girl(<span class="string">"Milky Way"</span>);<br/>
 			i.meet(u)<br/>
-			<span class="comments"># Afterwards, I confessed to you. </span><br/>
-			i.confess(u)<br/>
-			<span class="comments"># Nov 5, 2018, You became my girlfriend.</span><br/>
 			u.accepted(i)<br/>
-			<span class="comments"># Since then, we spent harmony happiness life every day.</span><br/>
+			<span class="comments"># 你是不曾预料过的惊喜</span><br/>
+			surprise(u, i)<br/>
+			<span class="comments"># 尽管我知道我们未来会碰上一个又一个困难坎坷</span><br/>
+			<span class="comments"># 但我们会相互陪伴很久很久</span><br/>
+			together(u, i)<br/>
+			<span class="comments"># 对你总有说不完的话，写不完的喜欢</span><br/>
+			<span class="comments"># 感谢我们坚定的相互选择</span><br/>
 			happy(u, i)<br/>
-			<span class="comments"># We enjoy studying together.</span><br/>
-			study(u, i)<br/>
-			<span class="comments"># We enjoy cuisine together.</span><br/>
-			dine(u, i)<br/>
-			<span class="comments"># We enjoy appointment together.</span><br/>
-			appoint(u, i)<br/>
-			<span class="comments"># We enjoy vacation together.</span><br/>
-			vacation(u, i)<br/>
-			<span class="comments"># Sometimes there are a few conflicts between us.</span><br/>
+			<span class="comments"># 我们偶然也会因为各种各样的原因吵架</span><br/>
 			conflict(u, i, sometimes=<span class="keyword">True</span>)<br/>
-			<span class="comments"># But we are getting more and more in harmony together.</span><br/>
-			u.in_harmony_with(i) <br/>
-			i.in_harmony_with(u) <br/>
-			<span class="comments"># You are the greatest love of my life.</span><br/>
-			while <span class="keyword">True</span>:<br/>
-			<span class="placeholder"></span><span class="keyword">if</span> u.with(i):<br/>
-			<span class="placeholder"></span><span class="placeholder"></span>u = everything<br/>
-			<span class="placeholder"></span><span class="keyword">else</span>:<br/>
-			<span class="placeholder"></span><span class="placeholder"></span>everything = u<br/>
-			<span class="comments"># Waiting me marries you, we will be the happiest couple in the world.</span><br/>
-			i.marry(u, in_the_future=<span class="keyword">True</span>)<br/>
-			i.live_happily_forever_with(u)<br/>
-			<span class="comments"># I love you forever.</span><br/>
+			<span class="comments"># 但每一次吵架让我更了解你，让我们都知道彼此有多重要</span><br/>
+			<span class="comments"># u are the love of my life.</span><br/>
 		</div>
 		<div id="loveHeart">
 			<canvas id="garden"></canvas>
 			<div id="words">
 				<div id="messages">
-					Qian, I have fallen in love with you for
+					心驰，我们已经在一起了 
 					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
 					Love u forever and ever.<br/>
-					<div class="signature">- Qingcai Cui | Germey</div>
+					<div class="signature">Milky Way | Pyrojewel</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div id="copyright">
-		Copyright © 2020 <a href='http://cuiqingcai.com'>cuiqingcai.com</a> 2014-2020
+		<div id="copyright">
+			Copyright © 2024 <a href=''>pyrojewel.com</a> 2013-2024
+		</div>
 	</div>
 </div>
 <script type="text/javascript">
@@ -81,9 +66,9 @@
 	var offsetY = $("#loveHeart").height() / 2 - 55;
 	var together = new Date();
 	// 此处月份介于 0 ~ 11 之间。用本地时间表示，如 8 月要用 7 表示。
-	together.setFullYear(2018, 10, 5);
-	together.setHours(15);
-	together.setMinutes(0);
+	together.setFullYear(2023, 11, 24);
+	together.setHours(20);
+	together.setMinutes(30);
 	together.setSeconds(0);
 	together.setMilliseconds(0);
 
